@@ -14,29 +14,29 @@
     ]
   },
   "User": {
-    "dataSource": "mysqlDs"
+    "dataSource": "mongoDs"
   },
   "AccessToken": {
-    "dataSource": "mysqlDs",
+    "dataSource": "mongoDs",
     "public": false
   },
   "ACL": {
-    "dataSource": "mysqlDs",
+    "dataSource": "mongoDs",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "mysqlDs",
+    "dataSource": "mongoDs",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "mysqlDs",
+    "dataSource": "mongoDs",
     "public": false
   },
   "Post": {
-    "dataSource": "mysqlDs",
+    "dataSource": "mongoDs",
     "public": true
   }
 }

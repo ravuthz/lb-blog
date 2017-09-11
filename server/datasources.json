@@ -1,17 +1,16 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
-  },
-  "mongoDs": {
-    "host": "ds125994.mlab.com",
-    "port": 25994,
-    "url": "mongodb://ravuthz:ravuthz@ds125994.mlab.com:25994/loop-back-app",
-    "database": "loop-back-app",
-    "password": "ravuthz",
-    "name": "mongoDs",
-    "user": "ravuthz",
-    "connector": "mongodb"
-  }
+    "db": {
+        "name": "db",
+        "connector": "memory"
+    },
+    "mongoDs": {
+        "host": "ds125994.mlab.com",
+        "port": 25994,
+        "url": "mongodb://ravuthz:ravuthz@ds125994.mlab.com:25994/loop-back-app",
+        "database": "loop-back-app",
+        "password": "ravuthz",
+        "name": "mongoDs",
+        "user": "ravuthz",
+        "connector": "mongodb"
+    }
 }
-

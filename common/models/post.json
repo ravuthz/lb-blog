@@ -1,39 +1,39 @@
 {
-  "name": "Post",
-  "plural": "posts",
-  "base": "PersistedModel",
-  "idInjection": true,
-  "options": {
-    "validateUpsert": true
-  },
-  "properties": {
-    "slug": {
-      "type": "string",
-      "required": true
+    "name": "Post",
+    "plural": "posts",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
     },
-    "title": {
-      "type": "string",
-      "required": true
+    "properties": {
+        "slug": {
+            "type": "string",
+            "required": true
+        },
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "content": {
+            "type": "string",
+            "required": true
+        },
+        "createdAt": {
+            "type": "date"
+        },
+        "createdBy": {
+            "type": "number"
+        },
+        "updatedAt": {
+            "type": "date"
+        },
+        "updatedBy": {
+            "type": "number"
+        }
     },
-    "content": {
-      "type": "string",
-      "required": true
-    },
-    "createdAt": {
-      "type": "date"
-    },
-    "createdBy": {
-      "type": "number"
-    },
-    "updatedAt": {
-      "type": "date"
-    },
-    "updatedBy": {
-      "type": "number"
-    }
-  },
-  "validations": [],
-  "relations": {},
-  "acls": [],
-  "methods": {}
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
 }

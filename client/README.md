@@ -32,3 +32,24 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 npm install bootstrap --save
 npm install ngx-bootstrap --save
 ```
+
+### Generate Admin Component + Module
+```bash
+ng g module admin
+ng g c admin/users
+ng g c admin/posts
+```
+
+### Generate Auth Component + Module
+```bash
+ng g module auth
+ng g c auth/login
+ng g c auth/logout
+ng g c auth/profile
+ng g c auth/register
+```
+
+### Generate Page Error 404
+```bash
+ng g c pages/page-not-found
+```

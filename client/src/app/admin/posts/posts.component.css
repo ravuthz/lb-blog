@@ -1,0 +1,12 @@
+.pagination-row {
+    margin: 0px -15px;
+}
+
+.pagination-row .row-left {
+    text-align: left;
+    margin-top: -20px;
+}
+
+.pagination-row .row-right {
+    text-align: right;
+}
